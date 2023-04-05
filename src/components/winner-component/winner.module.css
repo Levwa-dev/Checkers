@@ -1,0 +1,17 @@
+.winnerBody {
+    display: grid;
+    place-content: center;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
+.winnerBody > div {
+    text-align: center;
+}
+.winnerBody > div > h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.winnerBody > div > p {
+    margin: 15px 0;
+}

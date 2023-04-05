@@ -1,0 +1,24 @@
+.chess {
+    display: grid;
+    place-content: center;
+}
+.field {
+    display: inline-block;
+    border: 10px solid #2a2451;
+    z-index: 0;
+}
+.verticalLine {
+    display: flex;
+}
+.nextPostion {
+    border: 4px solid #15df41;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.crown {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
